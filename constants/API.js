@@ -1,0 +1,1 @@
+export const GET_CURRENCIES = 'https://api.jsonbin.io/b/5efef9e10bab551d2b6b2340';
