@@ -14,3 +14,5 @@ export const LOGOUT = "Logout";
 export const INVALIDR_LOGINS = "Invalid logins";
 export const OK = "ok";
 export const SETTINGS_SCREEN = "SettingsScreen"
+export const HOME = 'Home';
+export const SETTINGS = 'Settings';

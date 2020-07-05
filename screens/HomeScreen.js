@@ -13,25 +13,12 @@ import React,
     } from 'react';
  
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
-  StatusBar,
-  TextInput,
-  AsyncStorage,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import {isUserSignIn} from '../utils/isUserSignIn';
-import { Dropdown } from '../components/home-screen/Dropdown';
 import USDField from '../components/home-screen/USDField';
 import TargetCurrencyField from '../components/home-screen/TargetCurrencyField';
 import {getcurrencies} from '../requests';
